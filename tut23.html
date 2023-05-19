@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .navbar {
+      border-radius: 22px;
+      background-color: rgb(184, 60, 60);
+    }
+
+    .navbar ul {
+      overflow: auto;
+
+    }
+
+    .navbar li {
+
+      float: left;
+      list-style: none;
+      margin: 8px 20px;
+
+    }
+
+    .navbar li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .search {
+      border-radius: 41px;
+      padding: 3px 6px;
+      border: none;
+      font-size: 13px;
+      outline: none;
+    }
+
+    .search_class {
+      display: inline-block;
+      float: right;
+      position: relative;
+      padding: 7px;
+    }
+
+    .search_class button {
+      position: absolute;
+      right: 12px;
+      background: transparent;
+      border: none;
+      top: 10px;
+      font-size: 14px;
+      color: gray;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="navbar" >
+    <ul>
+      <li> <a href=""> Home</a></li>
+      <li> <a href="">Services</a> </li>
+      <li> <a href="">Advertisment</a> </li>
+      <li> <a href="">About</a> </li>
+      <div class="search_class">
+        <input class="search" type="text" />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+
+    </ul>
+     </header>
+
+
+</body>
+
+</html>
