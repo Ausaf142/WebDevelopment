@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variable/Custom Properties</title>
+    <style>
+        :root{
+            /*global-varibale root me rakhte hai*/
+            --box-color:rgb(10, 100, 39);
+            --danger-color: red;
+            --maxw:672px;
+
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: var(--box-color);
+            border: 2px solid red;
+            box-shadow: 5px 10px var(--box-color);
+            margin: 2px 9px;
+        }
+        .container{
+            /*hr block k apna variable hota hai,jaise upar wala variable isme kam nahi karega*/
+            max-width: var(--maxw);
+            margin: auto;
+            display: flex;
+            align-items: center;
+            background-color: var(--danger-color);
+        }
+    </style>
+</head>
+<body>
+    <dic class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </dic>
+</body>
+</html>
