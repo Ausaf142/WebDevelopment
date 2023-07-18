@@ -27,20 +27,23 @@ h1{
 } */
 
 
-/*Those p whose immediate sibling is div*,p to the next or in right of div/
-/* div +p{
+/*Those p whose immediate sibling is div*,p to the next or in right of div*/
+div +p{
     background-color: aqua;
-} */
+}
 
 </style>
 <body>
     <h1>This is more on selectors</h1>
     <div class="container">
         <div class="row">
-            <p>This is pragraph</p>
+            <p>This is pragraph-1</p>
+            <p>This is pragraph-2</p>
             <ul>
                 <li><p>This is para under line </p></li>
+                <p>This is pragraph-3</p>
             </ul>
+            <p>This is pragraph-4</p>
         </div>
         <p>This is another pragraph</p>
     </div>
