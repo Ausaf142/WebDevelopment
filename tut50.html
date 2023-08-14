@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS String Functions</title>
+    <style>
+        /*CSS*/
+    </style>
+</head>
+
+<body>
+
+
+    <script>
+        var str = "Hello planet earth, you are a great planet.";
+        console.log(str);
+        //First occurance of a subsrtring(First Alphabate)
+        var position = str.indexOf('planet');
+        console.log(position);
+        //Last occurance of substring(First Alphabate)
+        var position = str.lastIndexOf('planet');
+        console.log(position);
+
+        //var substr=str.slice(0,7)
+        // var substr =str.substring(0,7);      //we cant give negative value
+        var substr1 = str.substr(0, 7)          //kon se index se star krna hai ar kha tk jana hai
+        // console.log(substr1)
+        // var replaced = str.replace("earth", "moon");
+        // console.log(replaced);
+        // console.log(str.toUpperCase());
+        // console.log(str.toLocaleLowerCase());
+        
+        // var newString = str.concat('new String');         //concat is done by '+' by replacing concat
+        // console.log(newString)
+        // var strtwithspace="     this contains       whitespaces     "
+        // console.log(strtwithspace);
+        // console.log(strtwithspace.trim())                //trim the extra spaces from both end
+        // var char3 = str.charAt(1);
+        var char3 = str.charCodeAt(1);         //it give the ascii value of that element at index---not mendatory
+        console.log(char3)
+
+    </script>
+</body>
+
+</html>
