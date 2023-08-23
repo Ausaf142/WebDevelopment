@@ -12,5 +12,7 @@ let num =[3,54,1,2,4]
 // num.forEach((element)=>{
 // console.log(element)
 // })
-num.forEach(e)
-console.log(e)
+// num.forEach((element)=>{
+//     console.log(element)
+// })
+

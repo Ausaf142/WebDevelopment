@@ -17,9 +17,9 @@ let arr =[1,2,3,4,5,6,7,8,9]
 // console.log(arr)
 
 /*UNSHIFT--->it add the item at the fisrt place*/
-// let y =arr.unshift(786);
-// console.log(y)      //it gives the new length and add item at the first
-// console.log(arr)
+let y =arr.unshift(786);
+console.log(y)      //it gives the new length and add item at the first
+console.log(arr)
 
 /*To_STRING */
 // let str=arr.toString();
@@ -27,6 +27,6 @@ let arr =[1,2,3,4,5,6,7,8,9]
 // console.log(typeof str)
 
 /*JOIN_____*/
-let c = arr.join("+");  //Yaha kuch bhi likh skte hai wo join ho jyega
-console.log(c)
-console.log(typeof c)
+// let c = arr.join("+");  //Yaha kuch bhi likh skte hai wo join ho jyega
+// console.log(c)
+// console.log(typeof c)
